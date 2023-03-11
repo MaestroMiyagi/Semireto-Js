@@ -22,6 +22,8 @@ var deletePerson = function deletePerson(index) {
   people.splice(index, 1);
   updateTable();
 };
+/* Pendiente de optimización */
+
 
 var updateTable = function updateTable() {
   tablePeople.innerHTML = '';

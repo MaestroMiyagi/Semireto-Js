@@ -27,7 +27,7 @@ const deletePerson = (index) => {
   people.splice(index, 1);
   updateTable();
 }
-
+/* Pendiente de optimización */
 const  updateTable = () => {
   tablePeople.innerHTML = '';
 
