@@ -15,3 +15,28 @@ body {
     background-position: 0% 50%;
   }
 }
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .table {
+    font-size: 0.875rem;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table tbody tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 0.25rem;
+  }
+
+  .table tbody td {
+    display: block;
+    text-align: center;
+  }
+}
